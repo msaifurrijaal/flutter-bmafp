@@ -8,7 +8,7 @@
             "name": "football_apps",
             "request": "launch",
             "type": "dart",
-            "program": "lib/pages/main.dart",
+            "program": "main.dart",
         },
         {
             "name": "football_apps (profile mode)",
