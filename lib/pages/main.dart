@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:football_apps/pages/home_page.dart';
+import 'package:football_apps/theme.dart';
 
 void main() {
   runApp(const MainApp());
@@ -9,12 +11,9 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
-      ),
+    return MaterialApp(
+      theme: lightTheme,
+      home: const HomePage(),
     );
   }
 }
