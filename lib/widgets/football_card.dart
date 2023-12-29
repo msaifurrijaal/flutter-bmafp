@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:football_apps/config/app_route.dart';
 import 'package:football_apps/models/football_club.dart';
 import 'package:football_apps/pages/detail_page.dart';
 import 'package:football_apps/theme.dart';
@@ -14,11 +15,10 @@ class FootballCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      onTap: () => Navigator.push(
+      onTap: () => Navigator.pushNamed(
         context,
-        MaterialPageRoute(
-          builder: (context) => DetailPage(fc: fc),
-        ),
+        MyRoutes.detailRoute,
+        arguments: fc,
       ),
       child: Container(
         decoration: BoxDecoration(

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:football_apps/pages/home_page.dart';
+import 'package:football_apps/config/app_route.dart';
 import 'package:football_apps/theme.dart';
 
 void main() {
@@ -14,7 +14,8 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: lightTheme,
-      home: const HomePage(),
+      onGenerateRoute: MyRoutes.onGenerateRoute,
+      initialRoute: MyRoutes.homeRoute,
     );
   }
 }
