@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:football_apps/models/football_club.dart';
-import 'package:football_apps/theme.dart';
+import 'package:football_apps/config/theme.dart';
 import 'package:football_apps/widgets/atribut_card.dart';
 import 'package:football_apps/widgets/favorite_button.dart';
 import 'package:url_launcher/url_launcher.dart';

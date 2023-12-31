@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:football_apps/config/app_route.dart';
-import 'package:football_apps/theme.dart';
+import 'package:football_apps/config/theme.dart';
 
 void main() {
   runApp(const MainApp());

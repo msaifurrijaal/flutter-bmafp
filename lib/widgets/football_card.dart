@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:football_apps/config/app_route.dart';
 import 'package:football_apps/models/football_club.dart';
-import 'package:football_apps/pages/detail_page.dart';
-import 'package:football_apps/theme.dart';
+import 'package:football_apps/config/theme.dart';
 
 class FootballCard extends StatelessWidget {
   const FootballCard({

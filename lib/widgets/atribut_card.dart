@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:football_apps/theme.dart';
+import 'package:football_apps/config/theme.dart';
 
 class AtributCard extends StatelessWidget {
   final String text;
